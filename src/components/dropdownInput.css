@@ -1,0 +1,52 @@
+.tag {
+    display: inline-block;
+    background: #EEE;
+    color: #444;
+    padding: 0 4px;
+    margin: 2px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    font: inherit;
+    user-select: none;
+    cursor: pointer;
+    transition: all 100ms ease;
+    flex: 1 0 70px;
+    line-height: 42px;
+    font-family: sans-serif;
+    font-size: .5em;
+}
+.tag i {
+    float: right;
+    vertical-align: middle;
+}
+
+.tag:active {
+    background-color: #777;
+    border-color: #777;
+    color: #EEE;
+}
+
+.tag:focus {
+    transform: scale3d(1.2, 1.2, 1.2);
+    background-color: #FCC;
+    border-color: #700;
+}
+.inputWrapper {
+    display: flex;
+	padding: 0 2px;
+	background: #fff;
+	border: 1px solid #CCC;
+	width: 16em;
+	border-radius: 2px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    min-height: 42px;
+}
+.input {
+    display: inline-block;
+	padding: 0 2px;
+    background: transparent;
+    outline: unset;
+	border: unset;
+	flex: 1 0 100%;
+	border-radius: unset;
+}

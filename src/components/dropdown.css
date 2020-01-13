@@ -1,0 +1,18 @@
+.dropdown {
+    max-width: 320px;
+    position: relative;
+}
+.list {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    max-height: 0;
+    height: fit-content;
+    overflow: hidden;
+}
+.list.opened {
+    max-height: 420px;
+}
