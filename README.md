@@ -28,3 +28,4 @@ You will also see any lint errors in the console.
 TODO: 
 1. add some styles
 2. optimize it
+3. add tests
