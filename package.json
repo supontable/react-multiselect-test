@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "react-multiselect-test",
+  "version": "1.0.0",
   "private": true,
+  "author": "Artem Vertiporokh <supontable@gmail.com> (https://github.com/supontable)",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
