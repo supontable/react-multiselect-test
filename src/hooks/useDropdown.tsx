@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { DropdownStateCtx, DropdownDispatchCtx } from "../DropdownContext"
+import { DropdownStateCtx, DropdownDispatchCtx } from "../components/DropdownContext"
 
 const useDropdownState = () => {
     const context = useContext(DropdownStateCtx)
